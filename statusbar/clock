@@ -28,4 +28,4 @@ esac
 
 showdate=$(date "+%d.%m.%Y (%a) Week: %V $icon %H:%M")
 
-printf "[ %s %s %s %s %s %s ]\n" $showdate 
+printf "[ 📅 TIME: %s %s %s %s %s %s ]\n" $showdate 

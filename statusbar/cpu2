@@ -47,7 +47,7 @@ $cpu_usage eq -1 and die 'Can\'t find CPU information';
 
 # Print short_text, full_text
 print "${label}";
-printf "[ CPU: %.${decimals}f%% ]\n", $cpu_usage;
+printf "[ 🖥️ CPU: %.${decimals}f%% ]\n", $cpu_usage;
 print "${label}";
 printf "%.${decimals}f%%\n", $cpu_usage;
 

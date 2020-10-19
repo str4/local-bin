@@ -9,4 +9,4 @@ case $BLOCK_BUTTON in
 	6) "$TERMINAL" -e "$EDITOR" "$0" ;;
 esac
 
-free -m | awk 'NR==2{printf "[ Memory: %s/%sMB (%.2f%%) ]\n", $3,$2,$3*100/$2 }'
+free -m | awk 'NR==2{printf "[ 🗄️ MEM: %s/%sMB (%.2f%%) ]\n", $3,$2,$3*100/$2 }'
