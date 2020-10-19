@@ -1,0 +1,5 @@
+#!/bin/sh
+
+showdate=$(date "+%d.%m.%Y (%a) Week: %V")
+
+printf "[ 📅 DATE: %s %s %s %s ]\n" $showdate 
